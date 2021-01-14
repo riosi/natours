@@ -49,18 +49,18 @@ body {
     
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -76,7 +76,7 @@ body {
 
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;  
     font-size: 6rem;
     font-weight: 400;
@@ -88,7 +88,7 @@ body {
 
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -165,12 +165,12 @@ body {
     box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .2);
 }
 
-.btn-white {
+.btn--white {
     background-color: #FFF;
     color: #777;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBtn 1s ease-out .85s;
     animation-fill-mode: backwards;
 }
